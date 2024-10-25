@@ -1,0 +1,15 @@
+<p>Wyszukiwanie liniowe</p>
+<p>Wyszukaj element w tablicy</p>
+<script>
+    let liczby=[1,2,3,4,5,6,7,8,9,10];
+    let szukany=5;
+    let znaleziono=-1;
+    for( let i=0; i<liczby.length; i++){
+        if( szukany == liczby[i]){
+            znaleziono = i;
+        }
+    }
+    if( znaleziono != -1 ){
+        document.write( "znaleziono na pozycji " + znaleziono);
+    }
+</script>

@@ -1,0 +1,13 @@
+<script>
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+   
+    let liczba=prompt('Podaj liczbę z przedziału 1..10');
+    let losowa = getRandomInt( 10 );
+    if( liczba == losowa ){
+        alert( 'poprawna odpowiedź '+ liczba);
+    }else{
+        alert( 'niepoprawna odpowiedź' + losowa );
+    }
+</script>
